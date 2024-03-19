@@ -1,0 +1,149 @@
+/* Style for the navigation list */
+body{
+    backdrop-filter: 0;
+    background-color:#160B33;
+    color: #fff;    
+}
+
+
+
+nav ul {
+    list-style-type: none;
+    padding: 12px;
+    margin: 25px;
+    margin-left: 24em;  
+    color: #fff;  
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px; /* Adjust as needed */
+    color: white;
+}
+
+nav li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255); /* Adjust color as needed */
+    font-style:  normal;
+    font-weight: 20px;
+    transition: all .2s ease-in-out;
+    font-variant: small-caps;
+    margin-left: 90px;
+}
+
+
+
+
+.landing-text {
+    position: absolute;
+    top: 50%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+.landing-text h2 {
+    font-size: 36px;
+    margin-bottom: px;
+}
+
+.landing-text p {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+
+.landing-text {
+    text-align: center; /* Center align the text */
+}
+
+.contactbutton {
+    background: linear-gradient(to right, #753B70, #522546); /* Brinjal color gradient */
+    border: none;
+    color: white;
+    padding: 9px 19px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    opacity: 0.9; /* Set opacity */
+    transition: opacity 0.3s ease-in-out; /* Add transition effect */
+    border-radius: 25px;
+}
+
+.contact-button:hover {
+    opacity: 1; /* Increase opacity on hover */
+}
+
+
+
+#op {
+    padding: 400px; /* Adjust padding as needed */
+    margin: 20px; /* Adjust margin as needed */
+    border-radius: 155px; /* Adjust border radius as needed */
+    border: 25px; /* Adjust border styles as needed */
+    position: relative;
+    display: flex;
+}
+
+
+
+.title {
+    margin-left: -199px;
+    margin-top: -13px;
+    margin-bottom: -41px;
+}
+
+
+
+.sidemein{
+    font-size: 16px;
+    margin-left: 20em;
+
+}
+
+
+.morecontent{
+    margin-bottom: 200px;
+}
+
+
+
+
+.top .head {
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+    color: rgb(243, 89, 89);
+    border-radius: 20px;
+    padding: 15px 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0.5em;
+}
+
+
+
+.top .des {
+    font-size: 40px;
+    text-align: center;
+    position:static;
+    top: -10em; /* Adjust this value as needed to move the text upwards */
+}
+
+
+.container {
+    width: 100%;
+    max-width: 1200px; /* Adjust as needed */
+    margin: 0 auto;
+    padding: 10px;
+}
+
+
+
