@@ -1,0 +1,189 @@
+@media (max-width: 755px) {
+    nav ul {
+        display: block;
+        margin-left: auto;
+    }
+
+    nav li {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 8px;
+    }
+
+    nav li a {
+        margin-left: auto;
+    }
+    nav ul.show {
+        display: flex; /* Show navigation links when the menu is open */
+    }
+
+    
+    
+}
+nav li a.active {
+    color: #ff0000; /* Example: Change color to red when active */
+    /* Add your animation styles here */
+}
+
+
+
+
+
+
+@media (max-width: 375px) and (min-resolution: 3dppx) {
+    body {
+        font-size: 14px;
+    }
+
+    .container {
+        padding: 5px;
+    }
+
+    nav li a {
+        font-size: 14px;
+    }
+
+    .landing-text h2 {
+        font-size: 24px;
+    }
+
+    .landing-text p {
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    nav ul {
+        margin-left: 30px; /* Adjusted for smaller screens */
+    }
+
+    nav li {
+        display: inline; /* Stack items vertically on smaller screens */
+        margin-right: 35px;
+        margin-bottom: 10px; /* Add space between items */
+    }
+
+    nav li a {
+        margin-left: 0; /* Adjusted for smaller screens */
+    }
+}
+
+/* Additional responsive adjustments for devices with high pixel density */
+@media (min-resolution: 3dppx) {
+    /* Adjustments can be made here for devices with high pixel density */
+}
+
+
+
+
+@media (max-width: 760px) {
+    .landing-text {
+        width: 40%; /* Adjust width for smaller screens */
+        margin-top: 90px;
+    }
+
+    .landing-text h2 {
+        font-size: 20px; /* Adjust font size for smaller screens */
+    }
+
+    .landing-text p {
+        font-size: 16px; /* Adjust font size for smaller screens */
+    }
+}
+
+
+
+
+@media (max-width: 768px) {
+    #op {
+        padding: 200px; /* Adjust padding for smaller screens */
+        margin: 1px; /* Adjust margin for smaller screens */
+    }
+
+    .title {
+        font-size: 8px; /* Adjust font size for smaller screens */
+    }
+
+    
+    .morecontent {
+        margin-bottom: 100px; 
+        margin-top: 20px;/* Adjust margin for smaller screens */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .top .head {
+        font-size: 20px; /* Adjust font size for smaller screens */
+        padding: 10px 20px; /* Adjust padding for smaller screens */
+    }
+
+    .top .des {
+        font-size: 30px; /* Adjust font size for smaller screens */
+        top: -5em; /* Adjust position for smaller screens */
+    }
+
+    .container {
+        padding: 5px; /* Adjust padding for smaller screens */
+    }
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .top .head {
+        font-size: 20px; /* Adjust font size for smaller screens */
+        padding: 400px 2px; /* Adjust padding for smaller screens */
+    }
+
+    .top .des {
+        font-size: 30px; /* Adjust font size for smaller screens */
+        top: -5em; /* Adjust position for smaller screens */
+    }
+
+    .container {
+        padding: 2px; /* Adjust padding for smaller screens */
+    }
+}
+
+@media (max-width: 375px) and (min-resolution: 3dppx) {
+    .top .head {
+        font-size: 182px; /* Further adjust font size for very small screens */
+        padding: 2px 12px; /* Further adjust padding for very small screens */
+    }
+
+    .top .des {
+        font-size: 25px; /* Further adjust font size for very small screens */
+        top: -3em; /* Further adjust position for very small screens */
+    }
+
+    .container {
+        padding: 22px; /* Further adjust padding for very small screens */
+    }
+}
+
+
+@media (max-width: 768px) {
+    .sober {
+        padding: 1px;
+        max-width: 54%; /* Make the section wider on smaller screens */
+    }
+
+    #explore-services {
+        padding: 8px 16px;
+        font-size: 14px; /* Smaller font size for the button */
+    }
+}
